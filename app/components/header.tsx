@@ -6,7 +6,8 @@ export default function Header() {
     <header className="flex justify-between items-center mt-8 border-b-2 pb-5 sm:px-20 px-2">
       <Link href="/" className="flex space-x-2">
         <h1 className="sm:text-5xl text-2xl font-bold ml-2 tracking-tight">
-          J<span>∩</span>kebox
+          J<span className="shadow-text text-slate-100 tracking-tight">∩</span>
+          kebox
         </h1>
       </Link>
       <a
